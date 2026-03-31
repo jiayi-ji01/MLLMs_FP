@@ -1,0 +1,29 @@
+{
+  "selection_mode": "english_correct_fake_wrong",
+  "target_relations": [
+    "lives_in",
+    "discovered",
+    "symbol_is"
+  ],
+  "min_pairs_per_relation": 10,
+  "max_pairs_total": 30,
+  "available_pairs_by_relation": {
+    "lives_in": 10,
+    "discovered": 18,
+    "symbol_is": 21
+  },
+  "selected_pairs_by_relation": {
+    "lives_in": 10,
+    "discovered": 10,
+    "symbol_is": 10
+  },
+  "warnings": [],
+  "run_name": "main_qlora",
+  "split": "test",
+  "selected_pair_count": 30,
+  "selected_relation_distribution": {
+    "lives_in": 10,
+    "discovered": 10,
+    "symbol_is": 10
+  }
+}

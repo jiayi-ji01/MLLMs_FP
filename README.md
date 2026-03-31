@@ -1,82 +1,49 @@
 # Cross-Lingual Knowledge Transfer in Large Language Models
 
-This project studies whether factual knowledge learned from English supervision remains accessible when the same facts are queried in a synthetic fake language. The repository includes dataset construction, QLoRA training, evaluation, hidden-state analysis, activation patching, and figure generation.
+This repository studies whether factual knowledge learned from English supervision can still be retrieved when the same facts are asked in a synthetic fake language. It includes the full pipeline for synthetic data construction, QLoRA training, evaluation, hidden-state analysis, activation patching, and figure generation.
 
-## Project Structure
+## Repository Overview
 
-```text
-.
-├── README.md
-├── configs/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── outputs/
-│   ├── analysis/
-│   ├── checkpoints/
-│   ├── figures/
-│   ├── metrics/
-│   └── predictions/
-├── results_overview.ipynb
-└── src/
+- `src/`: core scripts for dataset building, training, inference, evaluation, analysis, and plotting.
+- `configs/`: YAML configs for each stage of the pipeline.
+- `data/raw/`: generated synthetic facts and QA candidates.
+- `data/processed/`: train/dev/test splits and SFT-formatted JSONL files.
+- `outputs/checkpoints/`: trained LoRA/QLoRA adapters.
+- `outputs/predictions/`: model generations on dev/test splits.
+- `outputs/metrics/`: exact-match and transfer metrics.
+- `outputs/figures/`: behavior and mechanism figures.
+- `notebooks/`: Colab notebooks for running the experiment and reviewing analysis.
+
+## Minimal Workflow
+
+```bash
+python src/build_dataset.py --config configs/dataset.yaml
+python src/make_splits.py --config configs/dataset.yaml
+python src/format_for_sft.py --config configs/dataset.yaml
+
+python src/train_lora.py --config configs/train_main.yaml
+python src/inference.py --config configs/inference.yaml
+python src/evaluate.py --config configs/evaluate.yaml
 ```
 
-- `configs/`: YAML configs for dataset generation, training, inference, evaluation, analysis, and plotting.
-- `data/raw/`: Raw synthetic facts and QA candidates created from the dataset config.
-- `data/processed/`: Split files and SFT-ready JSONL files used by training and evaluation.
-- `notebooks/`: Colab notebooks for end-to-end experiments and internal analysis.
-- `outputs/analysis/`: Hidden states, similarity summaries, and activation patching results.
-- `outputs/checkpoints/`: LoRA or QLoRA checkpoints for the main and control runs.
-- `outputs/figures/`: Final behavior and mechanism figures.
-- `outputs/metrics/`: Exact-match metrics, transfer efficiency, and per-relation scores.
-- `outputs/predictions/`: Generated answers for evaluation splits.
-- `results_overview.ipynb`: Compact notebook for reviewing the generated outputs.
-- `src/`: Python scripts for data creation, modeling, evaluation, and analysis.
+Optional analysis:
 
-## Script Overview
+```bash
+python src/extract_hidden_states.py --config configs/analysis_hidden_states.yaml
+python src/analyze_hidden_states.py --config configs/analysis_similarity.yaml
+python src/activation_patching.py --config configs/analysis_patching.yaml
+python src/plot_main_results.py --config configs/plot_main.yaml
+```
 
-### Dataset and preprocessing
+## Current Experiment Setup
 
-- `src/build_dataset.py`: Builds the synthetic English-to-fake dataset from `configs/dataset.yaml`, including subjects, relation-specific facts, and QA candidates.
-- `src/make_splits.py`: Creates train, dev, and test splits with per-relation stratification and prepares the fake-control training rows.
-- `src/format_for_sft.py`: Converts processed QA rows into chat-style SFT JSONL files for English-only training, English-plus-fake control training, and split-by-language evaluation.
-- `src/fake_language.py`: Defines the fake-language mapping and transformation utilities used during dataset construction.
-
-### Training and inference
-
-- `src/train_lora.py`: Trains a LoRA or QLoRA adapter for either the main English-only condition or the fake-language control condition.
-- `src/inference.py`: Loads the base model and adapter, runs batched generation on evaluation splits, and writes prediction files with metadata.
-- `src/evaluate.py`: Scores predictions with normalized exact match, computes transfer efficiency, and reports per-relation accuracy.
-
-### Representation and causal analysis
-
-- `src/extract_hidden_states.py`: Extracts layer-wise hidden states for paired English and fake-language evaluation examples.
-- `src/analyze_hidden_states.py`: Computes similarity summaries from the extracted hidden states, including subject-pool and relation-pool comparisons.
-- `src/activation_patching.py`: Runs layer-wise activation patching to measure how English activations rescue fake-language predictions.
-- `src/analysis_utils.py`: Shared helpers for hidden-state processing, similarity aggregation, and patching analysis.
-
-### Plotting and utilities
-
-- `src/plot_main_results.py`: Generates the main paper-style figures from metrics and analysis outputs.
-- `src/utils.py`: Shared file, config, and serialization helpers.
-
-## Key Outputs
-
-- Checkpoints: `outputs/checkpoints/`
-- Predictions: `outputs/predictions/`
-- Metrics: `outputs/metrics/`
-- Hidden-state and patching analysis: `outputs/analysis/`
-- Figures: `outputs/figures/`
-
-## Notebooks
-
-- `notebooks/colab_run_experiment.ipynb`: End-to-end experiment notebook.
-- `notebooks/colab_internal_analysis.ipynb`: Hidden-state and patching analysis notebook.
-- `results_overview.ipynb`: Compact local review of the generated results.
+- Base model: `Meta-Llama-3.1-8B-Instruct`
+- Main training condition: English-only QLoRA
+- Control condition: fake-language supervision via `configs/train_fake_control.yaml`
+- Relations: `lives_in`, `discovered`, `symbol_is`
+- Main processed data root: `data/processed/english_to_fake_transfer`
 
 ## Notes
 
-- The main experiments use `Meta-Llama-3.1-8B-Instruct` with QLoRA.
-- The dataset defines three relations: `lives_in`, `discovered`, and `symbol_is`.
 - Config files are the source of truth for paths, run names, and analysis settings.
+- The repository already contains generated outputs for the main and fake-control runs.

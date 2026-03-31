@@ -1,0 +1,2618 @@
+{
+  "lives_in": {
+    "final_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.03125,
+        "gold_logit_delta_mean": -0.03125,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.1
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.00625,
+        "gold_logit_delta_mean": -0.00625,
+        "mean_gold_rank_delta": 0.1,
+        "gold_rank_improvement_mean": 0.1,
+        "rescue_rate_top1": 0.2
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.01875,
+        "gold_logit_delta_mean": -0.01875,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.1
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.00625,
+        "gold_logit_delta_mean": 0.00625,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.2
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.15,
+        "gold_logit_delta_mean": 0.15,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.2
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.175,
+        "gold_logit_delta_mean": 0.175,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.2
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.23125,
+        "gold_logit_delta_mean": 0.23125,
+        "mean_gold_rank_delta": 0.3,
+        "gold_rank_improvement_mean": 0.3,
+        "rescue_rate_top1": 0.2
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.7,
+        "gold_logit_delta_mean": 0.7,
+        "mean_gold_rank_delta": 0.6,
+        "gold_rank_improvement_mean": 0.6,
+        "rescue_rate_top1": 0.4
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.8125,
+        "gold_logit_delta_mean": 0.8125,
+        "mean_gold_rank_delta": 0.8,
+        "gold_rank_improvement_mean": 0.8,
+        "rescue_rate_top1": 0.4
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.09375,
+        "gold_logit_delta_mean": 1.09375,
+        "mean_gold_rank_delta": 0.9,
+        "gold_rank_improvement_mean": 0.9,
+        "rescue_rate_top1": 0.5
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.98125,
+        "gold_logit_delta_mean": 0.98125,
+        "mean_gold_rank_delta": 0.9,
+        "gold_rank_improvement_mean": 0.9,
+        "rescue_rate_top1": 0.4
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.95,
+        "gold_logit_delta_mean": 0.95,
+        "mean_gold_rank_delta": 0.8,
+        "gold_rank_improvement_mean": 0.8,
+        "rescue_rate_top1": 0.4
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.1125,
+        "gold_logit_delta_mean": 1.1125,
+        "mean_gold_rank_delta": 0.6,
+        "gold_rank_improvement_mean": 0.6,
+        "rescue_rate_top1": 0.3
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.24375,
+        "gold_logit_delta_mean": 1.24375,
+        "mean_gold_rank_delta": 0.4,
+        "gold_rank_improvement_mean": 0.4,
+        "rescue_rate_top1": 0.4
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.675,
+        "gold_logit_delta_mean": 1.675,
+        "mean_gold_rank_delta": 0.4,
+        "gold_rank_improvement_mean": 0.4,
+        "rescue_rate_top1": 0.3
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.95625,
+        "gold_logit_delta_mean": 1.95625,
+        "mean_gold_rank_delta": 0.5,
+        "gold_rank_improvement_mean": 0.5,
+        "rescue_rate_top1": 0.4
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.40625,
+        "gold_logit_delta_mean": 2.40625,
+        "mean_gold_rank_delta": 0.9,
+        "gold_rank_improvement_mean": 0.9,
+        "rescue_rate_top1": 0.4
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.78125,
+        "gold_logit_delta_mean": 2.78125,
+        "mean_gold_rank_delta": 1.1,
+        "gold_rank_improvement_mean": 1.1,
+        "rescue_rate_top1": 0.6
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.38125,
+        "gold_logit_delta_mean": 3.38125,
+        "mean_gold_rank_delta": 1.0,
+        "gold_rank_improvement_mean": 1.0,
+        "rescue_rate_top1": 0.6
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.50625,
+        "gold_logit_delta_mean": 3.50625,
+        "mean_gold_rank_delta": 1.2,
+        "gold_rank_improvement_mean": 1.2,
+        "rescue_rate_top1": 0.7
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.00625,
+        "gold_logit_delta_mean": 4.00625,
+        "mean_gold_rank_delta": 1.5,
+        "gold_rank_improvement_mean": 1.5,
+        "rescue_rate_top1": 0.8
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.06875,
+        "gold_logit_delta_mean": 4.06875,
+        "mean_gold_rank_delta": 1.2,
+        "gold_rank_improvement_mean": 1.2,
+        "rescue_rate_top1": 0.7
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.15625,
+        "gold_logit_delta_mean": 5.15625,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.8
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.54375,
+        "gold_logit_delta_mean": 5.54375,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.8
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.90625,
+        "gold_logit_delta_mean": 5.90625,
+        "mean_gold_rank_delta": 1.8,
+        "gold_rank_improvement_mean": 1.8,
+        "rescue_rate_top1": 0.9
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 6.18125,
+        "gold_logit_delta_mean": 6.18125,
+        "mean_gold_rank_delta": 1.8,
+        "gold_rank_improvement_mean": 1.8,
+        "rescue_rate_top1": 0.9
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 6.75625,
+        "gold_logit_delta_mean": 6.75625,
+        "mean_gold_rank_delta": 1.9,
+        "gold_rank_improvement_mean": 1.9,
+        "rescue_rate_top1": 1.0
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 6.76875,
+        "gold_logit_delta_mean": 6.76875,
+        "mean_gold_rank_delta": 1.9,
+        "gold_rank_improvement_mean": 1.9,
+        "rescue_rate_top1": 1.0
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 6.60625,
+        "gold_logit_delta_mean": 6.60625,
+        "mean_gold_rank_delta": 1.9,
+        "gold_rank_improvement_mean": 1.9,
+        "rescue_rate_top1": 1.0
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 7.55625,
+        "gold_logit_delta_mean": 7.55625,
+        "mean_gold_rank_delta": 1.9,
+        "gold_rank_improvement_mean": 1.9,
+        "rescue_rate_top1": 1.0
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 8.81875,
+        "gold_logit_delta_mean": 8.81875,
+        "mean_gold_rank_delta": 1.9,
+        "gold_rank_improvement_mean": 1.9,
+        "rescue_rate_top1": 1.0
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 8.60625,
+        "gold_logit_delta_mean": 8.60625,
+        "mean_gold_rank_delta": 1.9,
+        "gold_rank_improvement_mean": 1.9,
+        "rescue_rate_top1": 1.0
+      }
+    },
+    "subject_last_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.1625,
+        "gold_logit_delta_mean": 0.1625,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.1
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.3,
+        "gold_logit_delta_mean": 0.3,
+        "mean_gold_rank_delta": 0.6,
+        "gold_rank_improvement_mean": 0.6,
+        "rescue_rate_top1": 0.2
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.34375,
+        "gold_logit_delta_mean": 0.34375,
+        "mean_gold_rank_delta": 0.6,
+        "gold_rank_improvement_mean": 0.6,
+        "rescue_rate_top1": 0.2
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.26875,
+        "gold_logit_delta_mean": 0.26875,
+        "mean_gold_rank_delta": 0.5,
+        "gold_rank_improvement_mean": 0.5,
+        "rescue_rate_top1": 0.2
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.58125,
+        "gold_logit_delta_mean": 0.58125,
+        "mean_gold_rank_delta": 0.7,
+        "gold_rank_improvement_mean": 0.7,
+        "rescue_rate_top1": 0.3
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.65625,
+        "gold_logit_delta_mean": 0.65625,
+        "mean_gold_rank_delta": 0.7,
+        "gold_rank_improvement_mean": 0.7,
+        "rescue_rate_top1": 0.3
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.84375,
+        "gold_logit_delta_mean": 0.84375,
+        "mean_gold_rank_delta": 1.0,
+        "gold_rank_improvement_mean": 1.0,
+        "rescue_rate_top1": 0.3
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.73125,
+        "gold_logit_delta_mean": 0.73125,
+        "mean_gold_rank_delta": 0.9,
+        "gold_rank_improvement_mean": 0.9,
+        "rescue_rate_top1": 0.3
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.88125,
+        "gold_logit_delta_mean": 0.88125,
+        "mean_gold_rank_delta": 1.1,
+        "gold_rank_improvement_mean": 1.1,
+        "rescue_rate_top1": 0.4
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.86875,
+        "gold_logit_delta_mean": 0.86875,
+        "mean_gold_rank_delta": 1.1,
+        "gold_rank_improvement_mean": 1.1,
+        "rescue_rate_top1": 0.4
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.89375,
+        "gold_logit_delta_mean": 0.89375,
+        "mean_gold_rank_delta": 1.0,
+        "gold_rank_improvement_mean": 1.0,
+        "rescue_rate_top1": 0.3
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.85625,
+        "gold_logit_delta_mean": 0.85625,
+        "mean_gold_rank_delta": 1.0,
+        "gold_rank_improvement_mean": 1.0,
+        "rescue_rate_top1": 0.3
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.84375,
+        "gold_logit_delta_mean": 0.84375,
+        "mean_gold_rank_delta": 0.8,
+        "gold_rank_improvement_mean": 0.8,
+        "rescue_rate_top1": 0.3
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.70625,
+        "gold_logit_delta_mean": 0.70625,
+        "mean_gold_rank_delta": 0.8,
+        "gold_rank_improvement_mean": 0.8,
+        "rescue_rate_top1": 0.3
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.63125,
+        "gold_logit_delta_mean": 0.63125,
+        "mean_gold_rank_delta": 0.9,
+        "gold_rank_improvement_mean": 0.9,
+        "rescue_rate_top1": 0.3
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.81875,
+        "gold_logit_delta_mean": 0.81875,
+        "mean_gold_rank_delta": 1.1,
+        "gold_rank_improvement_mean": 1.1,
+        "rescue_rate_top1": 0.3
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.69375,
+        "gold_logit_delta_mean": 0.69375,
+        "mean_gold_rank_delta": 1.1,
+        "gold_rank_improvement_mean": 1.1,
+        "rescue_rate_top1": 0.5
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.66875,
+        "gold_logit_delta_mean": 0.66875,
+        "mean_gold_rank_delta": 1.1,
+        "gold_rank_improvement_mean": 1.1,
+        "rescue_rate_top1": 0.5
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.74375,
+        "gold_logit_delta_mean": 0.74375,
+        "mean_gold_rank_delta": 1.2,
+        "gold_rank_improvement_mean": 1.2,
+        "rescue_rate_top1": 0.5
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.575,
+        "gold_logit_delta_mean": 0.575,
+        "mean_gold_rank_delta": 0.6,
+        "gold_rank_improvement_mean": 0.6,
+        "rescue_rate_top1": 0.2
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.55,
+        "gold_logit_delta_mean": 0.55,
+        "mean_gold_rank_delta": 0.7,
+        "gold_rank_improvement_mean": 0.7,
+        "rescue_rate_top1": 0.3
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.3875,
+        "gold_logit_delta_mean": 0.3875,
+        "mean_gold_rank_delta": 0.4,
+        "gold_rank_improvement_mean": 0.4,
+        "rescue_rate_top1": 0.2
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.29375,
+        "gold_logit_delta_mean": 0.29375,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.1
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.18125,
+        "gold_logit_delta_mean": 0.18125,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.1
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.13125,
+        "gold_logit_delta_mean": 0.13125,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.1
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.14375,
+        "gold_logit_delta_mean": 0.14375,
+        "mean_gold_rank_delta": 0.1,
+        "gold_rank_improvement_mean": 0.1,
+        "rescue_rate_top1": 0.1
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.05625,
+        "gold_logit_delta_mean": 0.05625,
+        "mean_gold_rank_delta": 0.3,
+        "gold_rank_improvement_mean": 0.3,
+        "rescue_rate_top1": 0.1
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.05625,
+        "gold_logit_delta_mean": 0.05625,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.1
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.075,
+        "gold_logit_delta_mean": 0.075,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.1
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.04375,
+        "gold_logit_delta_mean": 0.04375,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.1
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.00625,
+        "gold_logit_delta_mean": -0.00625,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.1
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0,
+        "gold_logit_delta_mean": 0.0,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.1
+      }
+    },
+    "relation_last_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.21875,
+        "gold_logit_delta_mean": 4.21875,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.8
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.31875,
+        "gold_logit_delta_mean": 4.31875,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.8
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.41875,
+        "gold_logit_delta_mean": 4.41875,
+        "mean_gold_rank_delta": 1.8,
+        "gold_rank_improvement_mean": 1.8,
+        "rescue_rate_top1": 0.9
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.53125,
+        "gold_logit_delta_mean": 4.53125,
+        "mean_gold_rank_delta": 1.8,
+        "gold_rank_improvement_mean": 1.8,
+        "rescue_rate_top1": 0.8
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.65625,
+        "gold_logit_delta_mean": 4.65625,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.9
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.60625,
+        "gold_logit_delta_mean": 4.60625,
+        "mean_gold_rank_delta": 1.6,
+        "gold_rank_improvement_mean": 1.6,
+        "rescue_rate_top1": 0.8
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.69375,
+        "gold_logit_delta_mean": 4.69375,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.9
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.15625,
+        "gold_logit_delta_mean": 4.15625,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.9
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.08125,
+        "gold_logit_delta_mean": 4.08125,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.9
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.80625,
+        "gold_logit_delta_mean": 3.80625,
+        "mean_gold_rank_delta": 1.6,
+        "gold_rank_improvement_mean": 1.6,
+        "rescue_rate_top1": 0.8
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.74375,
+        "gold_logit_delta_mean": 3.74375,
+        "mean_gold_rank_delta": 1.6,
+        "gold_rank_improvement_mean": 1.6,
+        "rescue_rate_top1": 0.8
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.775,
+        "gold_logit_delta_mean": 3.775,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.8
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.775,
+        "gold_logit_delta_mean": 2.775,
+        "mean_gold_rank_delta": 1.0,
+        "gold_rank_improvement_mean": 1.0,
+        "rescue_rate_top1": 0.5
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.69375,
+        "gold_logit_delta_mean": 2.69375,
+        "mean_gold_rank_delta": 1.2,
+        "gold_rank_improvement_mean": 1.2,
+        "rescue_rate_top1": 0.6
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.43125,
+        "gold_logit_delta_mean": 2.43125,
+        "mean_gold_rank_delta": 1.2,
+        "gold_rank_improvement_mean": 1.2,
+        "rescue_rate_top1": 0.6
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.34375,
+        "gold_logit_delta_mean": 1.34375,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.5
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.125,
+        "gold_logit_delta_mean": 1.125,
+        "mean_gold_rank_delta": 0.6,
+        "gold_rank_improvement_mean": 0.6,
+        "rescue_rate_top1": 0.5
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.71875,
+        "gold_logit_delta_mean": 0.71875,
+        "mean_gold_rank_delta": 0.1,
+        "gold_rank_improvement_mean": 0.1,
+        "rescue_rate_top1": 0.4
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.4375,
+        "gold_logit_delta_mean": 0.4375,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.4
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.49375,
+        "gold_logit_delta_mean": 0.49375,
+        "mean_gold_rank_delta": 0.1,
+        "gold_rank_improvement_mean": 0.1,
+        "rescue_rate_top1": 0.4
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.68125,
+        "gold_logit_delta_mean": 0.68125,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.3
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.525,
+        "gold_logit_delta_mean": 0.525,
+        "mean_gold_rank_delta": 0.3,
+        "gold_rank_improvement_mean": 0.3,
+        "rescue_rate_top1": 0.3
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0875,
+        "gold_logit_delta_mean": 0.0875,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.2
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.11875,
+        "gold_logit_delta_mean": 0.11875,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.3
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0125,
+        "gold_logit_delta_mean": -0.0125,
+        "mean_gold_rank_delta": 0.1,
+        "gold_rank_improvement_mean": 0.1,
+        "rescue_rate_top1": 0.3
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.075,
+        "gold_logit_delta_mean": -0.075,
+        "mean_gold_rank_delta": -0.2,
+        "gold_rank_improvement_mean": -0.2,
+        "rescue_rate_top1": 0.3
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.14375,
+        "gold_logit_delta_mean": 0.14375,
+        "mean_gold_rank_delta": 0.5,
+        "gold_rank_improvement_mean": 0.5,
+        "rescue_rate_top1": 0.2
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.2375,
+        "gold_logit_delta_mean": 0.2375,
+        "mean_gold_rank_delta": 0.5,
+        "gold_rank_improvement_mean": 0.5,
+        "rescue_rate_top1": 0.2
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0,
+        "gold_logit_delta_mean": 0.0,
+        "mean_gold_rank_delta": 0.3,
+        "gold_rank_improvement_mean": 0.3,
+        "rescue_rate_top1": 0.1
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.06875,
+        "gold_logit_delta_mean": 0.06875,
+        "mean_gold_rank_delta": 0.5,
+        "gold_rank_improvement_mean": 0.5,
+        "rescue_rate_top1": 0.2
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0125,
+        "gold_logit_delta_mean": -0.0125,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.1
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0,
+        "gold_logit_delta_mean": 0.0,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.1
+      }
+    }
+  },
+  "discovered": {
+    "final_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.06875,
+        "gold_logit_delta_mean": 0.06875,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.0
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.05625,
+        "gold_logit_delta_mean": 0.05625,
+        "mean_gold_rank_delta": 0.3,
+        "gold_rank_improvement_mean": 0.3,
+        "rescue_rate_top1": 0.0
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.05,
+        "gold_logit_delta_mean": 0.05,
+        "mean_gold_rank_delta": 0.3,
+        "gold_rank_improvement_mean": 0.3,
+        "rescue_rate_top1": 0.0
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.05625,
+        "gold_logit_delta_mean": 0.05625,
+        "mean_gold_rank_delta": 0.6,
+        "gold_rank_improvement_mean": 0.6,
+        "rescue_rate_top1": 0.0
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.10625,
+        "gold_logit_delta_mean": -0.10625,
+        "mean_gold_rank_delta": 0.1,
+        "gold_rank_improvement_mean": 0.1,
+        "rescue_rate_top1": 0.0
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.125,
+        "gold_logit_delta_mean": -0.125,
+        "mean_gold_rank_delta": 0.1,
+        "gold_rank_improvement_mean": 0.1,
+        "rescue_rate_top1": 0.0
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.15,
+        "gold_logit_delta_mean": -0.15,
+        "mean_gold_rank_delta": -0.4,
+        "gold_rank_improvement_mean": -0.4,
+        "rescue_rate_top1": 0.0
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.14375,
+        "gold_logit_delta_mean": -0.14375,
+        "mean_gold_rank_delta": 0.1,
+        "gold_rank_improvement_mean": 0.1,
+        "rescue_rate_top1": 0.0
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.15625,
+        "gold_logit_delta_mean": -0.15625,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.0
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.16875,
+        "gold_logit_delta_mean": -0.16875,
+        "mean_gold_rank_delta": 1.0,
+        "gold_rank_improvement_mean": 1.0,
+        "rescue_rate_top1": 0.0
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.16875,
+        "gold_logit_delta_mean": -0.16875,
+        "mean_gold_rank_delta": 1.5,
+        "gold_rank_improvement_mean": 1.5,
+        "rescue_rate_top1": 0.0
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.30625,
+        "gold_logit_delta_mean": -0.30625,
+        "mean_gold_rank_delta": 1.7,
+        "gold_rank_improvement_mean": 1.7,
+        "rescue_rate_top1": 0.0
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.20625,
+        "gold_logit_delta_mean": 0.20625,
+        "mean_gold_rank_delta": 4.7,
+        "gold_rank_improvement_mean": 4.7,
+        "rescue_rate_top1": 0.1
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.75,
+        "gold_logit_delta_mean": 0.75,
+        "mean_gold_rank_delta": 6.6,
+        "gold_rank_improvement_mean": 6.6,
+        "rescue_rate_top1": 0.1
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.475,
+        "gold_logit_delta_mean": 1.475,
+        "mean_gold_rank_delta": 7.1,
+        "gold_rank_improvement_mean": 7.1,
+        "rescue_rate_top1": 0.3
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.79375,
+        "gold_logit_delta_mean": 1.79375,
+        "mean_gold_rank_delta": 7.6,
+        "gold_rank_improvement_mean": 7.6,
+        "rescue_rate_top1": 0.3
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.6,
+        "gold_logit_delta_mean": 2.6,
+        "mean_gold_rank_delta": 9.4,
+        "gold_rank_improvement_mean": 9.4,
+        "rescue_rate_top1": 0.3
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.69375,
+        "gold_logit_delta_mean": 2.69375,
+        "mean_gold_rank_delta": 9.8,
+        "gold_rank_improvement_mean": 9.8,
+        "rescue_rate_top1": 0.4
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.41875,
+        "gold_logit_delta_mean": 3.41875,
+        "mean_gold_rank_delta": 10.4,
+        "gold_rank_improvement_mean": 10.4,
+        "rescue_rate_top1": 0.6
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.0125,
+        "gold_logit_delta_mean": 3.0125,
+        "mean_gold_rank_delta": 10.2,
+        "gold_rank_improvement_mean": 10.2,
+        "rescue_rate_top1": 0.6
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.4375,
+        "gold_logit_delta_mean": 3.4375,
+        "mean_gold_rank_delta": 10.6,
+        "gold_rank_improvement_mean": 10.6,
+        "rescue_rate_top1": 0.6
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.25625,
+        "gold_logit_delta_mean": 3.25625,
+        "mean_gold_rank_delta": 10.6,
+        "gold_rank_improvement_mean": 10.6,
+        "rescue_rate_top1": 0.6
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.40625,
+        "gold_logit_delta_mean": 4.40625,
+        "mean_gold_rank_delta": 10.9,
+        "gold_rank_improvement_mean": 10.9,
+        "rescue_rate_top1": 0.6
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.79375,
+        "gold_logit_delta_mean": 4.79375,
+        "mean_gold_rank_delta": 11.2,
+        "gold_rank_improvement_mean": 11.2,
+        "rescue_rate_top1": 0.6
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.59375,
+        "gold_logit_delta_mean": 5.59375,
+        "mean_gold_rank_delta": 11.2,
+        "gold_rank_improvement_mean": 11.2,
+        "rescue_rate_top1": 0.6
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 6.76875,
+        "gold_logit_delta_mean": 6.76875,
+        "mean_gold_rank_delta": 11.4,
+        "gold_rank_improvement_mean": 11.4,
+        "rescue_rate_top1": 0.8
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 7.89375,
+        "gold_logit_delta_mean": 7.89375,
+        "mean_gold_rank_delta": 11.4,
+        "gold_rank_improvement_mean": 11.4,
+        "rescue_rate_top1": 0.8
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 7.86875,
+        "gold_logit_delta_mean": 7.86875,
+        "mean_gold_rank_delta": 11.4,
+        "gold_rank_improvement_mean": 11.4,
+        "rescue_rate_top1": 0.8
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 8.25625,
+        "gold_logit_delta_mean": 8.25625,
+        "mean_gold_rank_delta": 11.4,
+        "gold_rank_improvement_mean": 11.4,
+        "rescue_rate_top1": 0.8
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 8.86875,
+        "gold_logit_delta_mean": 8.86875,
+        "mean_gold_rank_delta": 11.4,
+        "gold_rank_improvement_mean": 11.4,
+        "rescue_rate_top1": 0.8
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 10.31875,
+        "gold_logit_delta_mean": 10.31875,
+        "mean_gold_rank_delta": 11.6,
+        "gold_rank_improvement_mean": 11.6,
+        "rescue_rate_top1": 1.0
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 10.25625,
+        "gold_logit_delta_mean": 10.25625,
+        "mean_gold_rank_delta": 11.6,
+        "gold_rank_improvement_mean": 11.6,
+        "rescue_rate_top1": 1.0
+      }
+    },
+    "subject_last_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.28125,
+        "gold_logit_delta_mean": 0.28125,
+        "mean_gold_rank_delta": 2.6,
+        "gold_rank_improvement_mean": 2.6,
+        "rescue_rate_top1": 0.0
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.34375,
+        "gold_logit_delta_mean": 0.34375,
+        "mean_gold_rank_delta": 3.0,
+        "gold_rank_improvement_mean": 3.0,
+        "rescue_rate_top1": 0.0
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.41875,
+        "gold_logit_delta_mean": 0.41875,
+        "mean_gold_rank_delta": 4.0,
+        "gold_rank_improvement_mean": 4.0,
+        "rescue_rate_top1": 0.0
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.28125,
+        "gold_logit_delta_mean": 0.28125,
+        "mean_gold_rank_delta": 4.1,
+        "gold_rank_improvement_mean": 4.1,
+        "rescue_rate_top1": 0.0
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.24375,
+        "gold_logit_delta_mean": 0.24375,
+        "mean_gold_rank_delta": 3.5,
+        "gold_rank_improvement_mean": 3.5,
+        "rescue_rate_top1": 0.0
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.38125,
+        "gold_logit_delta_mean": 0.38125,
+        "mean_gold_rank_delta": 4.8,
+        "gold_rank_improvement_mean": 4.8,
+        "rescue_rate_top1": 0.0
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.3625,
+        "gold_logit_delta_mean": 0.3625,
+        "mean_gold_rank_delta": 4.9,
+        "gold_rank_improvement_mean": 4.9,
+        "rescue_rate_top1": 0.0
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.40625,
+        "gold_logit_delta_mean": 0.40625,
+        "mean_gold_rank_delta": 5.8,
+        "gold_rank_improvement_mean": 5.8,
+        "rescue_rate_top1": 0.0
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.4625,
+        "gold_logit_delta_mean": 0.4625,
+        "mean_gold_rank_delta": 5.9,
+        "gold_rank_improvement_mean": 5.9,
+        "rescue_rate_top1": 0.0
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.53125,
+        "gold_logit_delta_mean": 0.53125,
+        "mean_gold_rank_delta": 6.0,
+        "gold_rank_improvement_mean": 6.0,
+        "rescue_rate_top1": 0.0
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.54375,
+        "gold_logit_delta_mean": 0.54375,
+        "mean_gold_rank_delta": 6.0,
+        "gold_rank_improvement_mean": 6.0,
+        "rescue_rate_top1": 0.0
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.64375,
+        "gold_logit_delta_mean": 0.64375,
+        "mean_gold_rank_delta": 5.6,
+        "gold_rank_improvement_mean": 5.6,
+        "rescue_rate_top1": 0.0
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.68125,
+        "gold_logit_delta_mean": 0.68125,
+        "mean_gold_rank_delta": 5.9,
+        "gold_rank_improvement_mean": 5.9,
+        "rescue_rate_top1": 0.0
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.73125,
+        "gold_logit_delta_mean": 0.73125,
+        "mean_gold_rank_delta": 5.9,
+        "gold_rank_improvement_mean": 5.9,
+        "rescue_rate_top1": 0.0
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.70625,
+        "gold_logit_delta_mean": 0.70625,
+        "mean_gold_rank_delta": 5.8,
+        "gold_rank_improvement_mean": 5.8,
+        "rescue_rate_top1": 0.0
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.7375,
+        "gold_logit_delta_mean": 0.7375,
+        "mean_gold_rank_delta": 5.9,
+        "gold_rank_improvement_mean": 5.9,
+        "rescue_rate_top1": 0.0
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.6125,
+        "gold_logit_delta_mean": 0.6125,
+        "mean_gold_rank_delta": 5.8,
+        "gold_rank_improvement_mean": 5.8,
+        "rescue_rate_top1": 0.0
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.60625,
+        "gold_logit_delta_mean": 0.60625,
+        "mean_gold_rank_delta": 5.6,
+        "gold_rank_improvement_mean": 5.6,
+        "rescue_rate_top1": 0.0
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.51875,
+        "gold_logit_delta_mean": 0.51875,
+        "mean_gold_rank_delta": 5.1,
+        "gold_rank_improvement_mean": 5.1,
+        "rescue_rate_top1": 0.0
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.5125,
+        "gold_logit_delta_mean": 0.5125,
+        "mean_gold_rank_delta": 5.4,
+        "gold_rank_improvement_mean": 5.4,
+        "rescue_rate_top1": 0.0
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.5625,
+        "gold_logit_delta_mean": 0.5625,
+        "mean_gold_rank_delta": 5.3,
+        "gold_rank_improvement_mean": 5.3,
+        "rescue_rate_top1": 0.0
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.4625,
+        "gold_logit_delta_mean": 0.4625,
+        "mean_gold_rank_delta": 5.0,
+        "gold_rank_improvement_mean": 5.0,
+        "rescue_rate_top1": 0.0
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.35,
+        "gold_logit_delta_mean": 0.35,
+        "mean_gold_rank_delta": 3.0,
+        "gold_rank_improvement_mean": 3.0,
+        "rescue_rate_top1": 0.0
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.325,
+        "gold_logit_delta_mean": 0.325,
+        "mean_gold_rank_delta": 3.0,
+        "gold_rank_improvement_mean": 3.0,
+        "rescue_rate_top1": 0.0
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.3375,
+        "gold_logit_delta_mean": 0.3375,
+        "mean_gold_rank_delta": 2.7,
+        "gold_rank_improvement_mean": 2.7,
+        "rescue_rate_top1": 0.0
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.28125,
+        "gold_logit_delta_mean": 0.28125,
+        "mean_gold_rank_delta": 2.6,
+        "gold_rank_improvement_mean": 2.6,
+        "rescue_rate_top1": 0.0
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.125,
+        "gold_logit_delta_mean": 0.125,
+        "mean_gold_rank_delta": 1.3,
+        "gold_rank_improvement_mean": 1.3,
+        "rescue_rate_top1": 0.0
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.2,
+        "gold_logit_delta_mean": 0.2,
+        "mean_gold_rank_delta": 1.4,
+        "gold_rank_improvement_mean": 1.4,
+        "rescue_rate_top1": 0.0
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.14375,
+        "gold_logit_delta_mean": 0.14375,
+        "mean_gold_rank_delta": 1.0,
+        "gold_rank_improvement_mean": 1.0,
+        "rescue_rate_top1": 0.0
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.11875,
+        "gold_logit_delta_mean": 0.11875,
+        "mean_gold_rank_delta": 0.8,
+        "gold_rank_improvement_mean": 0.8,
+        "rescue_rate_top1": 0.0
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0625,
+        "gold_logit_delta_mean": 0.0625,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.0
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0,
+        "gold_logit_delta_mean": 0.0,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.0
+      }
+    },
+    "relation_last_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.4625,
+        "gold_logit_delta_mean": 4.4625,
+        "mean_gold_rank_delta": 10.4,
+        "gold_rank_improvement_mean": 10.4,
+        "rescue_rate_top1": 0.6
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.6625,
+        "gold_logit_delta_mean": 4.6625,
+        "mean_gold_rank_delta": 10.0,
+        "gold_rank_improvement_mean": 10.0,
+        "rescue_rate_top1": 0.6
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.58125,
+        "gold_logit_delta_mean": 4.58125,
+        "mean_gold_rank_delta": 10.1,
+        "gold_rank_improvement_mean": 10.1,
+        "rescue_rate_top1": 0.6
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.0875,
+        "gold_logit_delta_mean": 5.0875,
+        "mean_gold_rank_delta": 10.6,
+        "gold_rank_improvement_mean": 10.6,
+        "rescue_rate_top1": 0.6
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.04375,
+        "gold_logit_delta_mean": 5.04375,
+        "mean_gold_rank_delta": 10.8,
+        "gold_rank_improvement_mean": 10.8,
+        "rescue_rate_top1": 0.6
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.1,
+        "gold_logit_delta_mean": 5.1,
+        "mean_gold_rank_delta": 10.9,
+        "gold_rank_improvement_mean": 10.9,
+        "rescue_rate_top1": 0.7
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.90625,
+        "gold_logit_delta_mean": 4.90625,
+        "mean_gold_rank_delta": 11.1,
+        "gold_rank_improvement_mean": 11.1,
+        "rescue_rate_top1": 0.7
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.41875,
+        "gold_logit_delta_mean": 4.41875,
+        "mean_gold_rank_delta": 10.3,
+        "gold_rank_improvement_mean": 10.3,
+        "rescue_rate_top1": 0.6
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.74375,
+        "gold_logit_delta_mean": 3.74375,
+        "mean_gold_rank_delta": 9.7,
+        "gold_rank_improvement_mean": 9.7,
+        "rescue_rate_top1": 0.5
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.39375,
+        "gold_logit_delta_mean": 3.39375,
+        "mean_gold_rank_delta": 9.4,
+        "gold_rank_improvement_mean": 9.4,
+        "rescue_rate_top1": 0.4
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.95,
+        "gold_logit_delta_mean": 2.95,
+        "mean_gold_rank_delta": 8.6,
+        "gold_rank_improvement_mean": 8.6,
+        "rescue_rate_top1": 0.2
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.08125,
+        "gold_logit_delta_mean": 3.08125,
+        "mean_gold_rank_delta": 8.6,
+        "gold_rank_improvement_mean": 8.6,
+        "rescue_rate_top1": 0.2
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.1875,
+        "gold_logit_delta_mean": 2.1875,
+        "mean_gold_rank_delta": 7.5,
+        "gold_rank_improvement_mean": 7.5,
+        "rescue_rate_top1": 0.2
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.13125,
+        "gold_logit_delta_mean": 2.13125,
+        "mean_gold_rank_delta": 7.2,
+        "gold_rank_improvement_mean": 7.2,
+        "rescue_rate_top1": 0.2
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.14375,
+        "gold_logit_delta_mean": 2.14375,
+        "mean_gold_rank_delta": 7.1,
+        "gold_rank_improvement_mean": 7.1,
+        "rescue_rate_top1": 0.2
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.775,
+        "gold_logit_delta_mean": 1.775,
+        "mean_gold_rank_delta": 6.6,
+        "gold_rank_improvement_mean": 6.6,
+        "rescue_rate_top1": 0.1
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.68125,
+        "gold_logit_delta_mean": 1.68125,
+        "mean_gold_rank_delta": 6.4,
+        "gold_rank_improvement_mean": 6.4,
+        "rescue_rate_top1": 0.1
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.575,
+        "gold_logit_delta_mean": 1.575,
+        "mean_gold_rank_delta": 6.8,
+        "gold_rank_improvement_mean": 6.8,
+        "rescue_rate_top1": 0.1
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.725,
+        "gold_logit_delta_mean": 1.725,
+        "mean_gold_rank_delta": 7.3,
+        "gold_rank_improvement_mean": 7.3,
+        "rescue_rate_top1": 0.1
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.6125,
+        "gold_logit_delta_mean": 1.6125,
+        "mean_gold_rank_delta": 7.0,
+        "gold_rank_improvement_mean": 7.0,
+        "rescue_rate_top1": 0.1
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.6875,
+        "gold_logit_delta_mean": 1.6875,
+        "mean_gold_rank_delta": 7.0,
+        "gold_rank_improvement_mean": 7.0,
+        "rescue_rate_top1": 0.1
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.91875,
+        "gold_logit_delta_mean": 1.91875,
+        "mean_gold_rank_delta": 7.6,
+        "gold_rank_improvement_mean": 7.6,
+        "rescue_rate_top1": 0.1
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.9375,
+        "gold_logit_delta_mean": 0.9375,
+        "mean_gold_rank_delta": 3.0,
+        "gold_rank_improvement_mean": 3.0,
+        "rescue_rate_top1": 0.0
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.8875,
+        "gold_logit_delta_mean": 0.8875,
+        "mean_gold_rank_delta": 3.1,
+        "gold_rank_improvement_mean": 3.1,
+        "rescue_rate_top1": 0.0
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.6,
+        "gold_logit_delta_mean": 0.6,
+        "mean_gold_rank_delta": 2.0,
+        "gold_rank_improvement_mean": 2.0,
+        "rescue_rate_top1": 0.0
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.225,
+        "gold_logit_delta_mean": 0.225,
+        "mean_gold_rank_delta": -0.2,
+        "gold_rank_improvement_mean": -0.2,
+        "rescue_rate_top1": 0.0
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.16875,
+        "gold_logit_delta_mean": 0.16875,
+        "mean_gold_rank_delta": 1.1,
+        "gold_rank_improvement_mean": 1.1,
+        "rescue_rate_top1": 0.0
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.03125,
+        "gold_logit_delta_mean": 0.03125,
+        "mean_gold_rank_delta": 0.6,
+        "gold_rank_improvement_mean": 0.6,
+        "rescue_rate_top1": 0.0
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0125,
+        "gold_logit_delta_mean": 0.0125,
+        "mean_gold_rank_delta": 0.3,
+        "gold_rank_improvement_mean": 0.3,
+        "rescue_rate_top1": 0.0
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0125,
+        "gold_logit_delta_mean": -0.0125,
+        "mean_gold_rank_delta": 0.2,
+        "gold_rank_improvement_mean": 0.2,
+        "rescue_rate_top1": 0.0
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.00625,
+        "gold_logit_delta_mean": 0.00625,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.0
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0,
+        "gold_logit_delta_mean": 0.0,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.0
+      }
+    }
+  },
+  "symbol_is": {
+    "final_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0140625,
+        "gold_logit_delta_mean": 0.0140625,
+        "mean_gold_rank_delta": 187.8,
+        "gold_rank_improvement_mean": 187.8,
+        "rescue_rate_top1": 0.0
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0046875,
+        "gold_logit_delta_mean": 0.0046875,
+        "mean_gold_rank_delta": 158.1,
+        "gold_rank_improvement_mean": 158.1,
+        "rescue_rate_top1": 0.0
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0140625,
+        "gold_logit_delta_mean": -0.0140625,
+        "mean_gold_rank_delta": 174.8,
+        "gold_rank_improvement_mean": 174.8,
+        "rescue_rate_top1": 0.0
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0234375,
+        "gold_logit_delta_mean": 0.0234375,
+        "mean_gold_rank_delta": 275.3,
+        "gold_rank_improvement_mean": 275.3,
+        "rescue_rate_top1": 0.0
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.01875,
+        "gold_logit_delta_mean": -0.01875,
+        "mean_gold_rank_delta": 250.8,
+        "gold_rank_improvement_mean": 250.8,
+        "rescue_rate_top1": 0.0
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0046875,
+        "gold_logit_delta_mean": -0.0046875,
+        "mean_gold_rank_delta": 377.2,
+        "gold_rank_improvement_mean": 377.2,
+        "rescue_rate_top1": 0.0
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.075,
+        "gold_logit_delta_mean": 0.075,
+        "mean_gold_rank_delta": 452.8,
+        "gold_rank_improvement_mean": 452.8,
+        "rescue_rate_top1": 0.0
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.2265625,
+        "gold_logit_delta_mean": 0.2265625,
+        "mean_gold_rank_delta": 746.4,
+        "gold_rank_improvement_mean": 746.4,
+        "rescue_rate_top1": 0.0
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.4875,
+        "gold_logit_delta_mean": 0.4875,
+        "mean_gold_rank_delta": 1082.5,
+        "gold_rank_improvement_mean": 1082.5,
+        "rescue_rate_top1": 0.0
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.2328125,
+        "gold_logit_delta_mean": 1.2328125,
+        "mean_gold_rank_delta": 1841.6,
+        "gold_rank_improvement_mean": 1841.6,
+        "rescue_rate_top1": 0.0
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.646875,
+        "gold_logit_delta_mean": 1.646875,
+        "mean_gold_rank_delta": 2138.0,
+        "gold_rank_improvement_mean": 2138.0,
+        "rescue_rate_top1": 0.0
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.6515625,
+        "gold_logit_delta_mean": 1.6515625,
+        "mean_gold_rank_delta": 2171.6,
+        "gold_rank_improvement_mean": 2171.6,
+        "rescue_rate_top1": 0.0
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.575,
+        "gold_logit_delta_mean": 2.575,
+        "mean_gold_rank_delta": 2782.4,
+        "gold_rank_improvement_mean": 2782.4,
+        "rescue_rate_top1": 0.0
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 3.359375,
+        "gold_logit_delta_mean": 3.359375,
+        "mean_gold_rank_delta": 3103.3,
+        "gold_rank_improvement_mean": 3103.3,
+        "rescue_rate_top1": 0.0
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.615625,
+        "gold_logit_delta_mean": 5.615625,
+        "mean_gold_rank_delta": 3576.2,
+        "gold_rank_improvement_mean": 3576.2,
+        "rescue_rate_top1": 0.0
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 7.88125,
+        "gold_logit_delta_mean": 7.88125,
+        "mean_gold_rank_delta": 3817.6,
+        "gold_rank_improvement_mean": 3817.6,
+        "rescue_rate_top1": 0.2
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 10.665625,
+        "gold_logit_delta_mean": 10.665625,
+        "mean_gold_rank_delta": 3900.0,
+        "gold_rank_improvement_mean": 3900.0,
+        "rescue_rate_top1": 0.2
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 12.728125,
+        "gold_logit_delta_mean": 12.728125,
+        "mean_gold_rank_delta": 3930.1,
+        "gold_rank_improvement_mean": 3930.1,
+        "rescue_rate_top1": 0.3
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 12.890625,
+        "gold_logit_delta_mean": 12.890625,
+        "mean_gold_rank_delta": 3931.2,
+        "gold_rank_improvement_mean": 3931.2,
+        "rescue_rate_top1": 0.3
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 12.884375,
+        "gold_logit_delta_mean": 12.884375,
+        "mean_gold_rank_delta": 3931.6,
+        "gold_rank_improvement_mean": 3931.6,
+        "rescue_rate_top1": 0.3
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 13.184375,
+        "gold_logit_delta_mean": 13.184375,
+        "mean_gold_rank_delta": 3930.0,
+        "gold_rank_improvement_mean": 3930.0,
+        "rescue_rate_top1": 0.4
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 13.490625,
+        "gold_logit_delta_mean": 13.490625,
+        "mean_gold_rank_delta": 3933.3,
+        "gold_rank_improvement_mean": 3933.3,
+        "rescue_rate_top1": 0.4
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 14.290625,
+        "gold_logit_delta_mean": 14.290625,
+        "mean_gold_rank_delta": 3936.8,
+        "gold_rank_improvement_mean": 3936.8,
+        "rescue_rate_top1": 0.6
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 14.228125,
+        "gold_logit_delta_mean": 14.228125,
+        "mean_gold_rank_delta": 3936.5,
+        "gold_rank_improvement_mean": 3936.5,
+        "rescue_rate_top1": 0.6
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 14.153125,
+        "gold_logit_delta_mean": 14.153125,
+        "mean_gold_rank_delta": 3936.5,
+        "gold_rank_improvement_mean": 3936.5,
+        "rescue_rate_top1": 0.6
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 14.271875,
+        "gold_logit_delta_mean": 14.271875,
+        "mean_gold_rank_delta": 3936.9,
+        "gold_rank_improvement_mean": 3936.9,
+        "rescue_rate_top1": 0.6
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 15.946875,
+        "gold_logit_delta_mean": 15.946875,
+        "mean_gold_rank_delta": 3940.3,
+        "gold_rank_improvement_mean": 3940.3,
+        "rescue_rate_top1": 0.6
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 16.090625,
+        "gold_logit_delta_mean": 16.090625,
+        "mean_gold_rank_delta": 3939.8,
+        "gold_rank_improvement_mean": 3939.8,
+        "rescue_rate_top1": 0.6
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 15.859375,
+        "gold_logit_delta_mean": 15.859375,
+        "mean_gold_rank_delta": 3940.2,
+        "gold_rank_improvement_mean": 3940.2,
+        "rescue_rate_top1": 0.6
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 15.921875,
+        "gold_logit_delta_mean": 15.921875,
+        "mean_gold_rank_delta": 3932.2,
+        "gold_rank_improvement_mean": 3932.2,
+        "rescue_rate_top1": 0.6
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 16.015625,
+        "gold_logit_delta_mean": 16.015625,
+        "mean_gold_rank_delta": 3928.5,
+        "gold_rank_improvement_mean": 3928.5,
+        "rescue_rate_top1": 0.6
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 15.715625,
+        "gold_logit_delta_mean": 15.715625,
+        "mean_gold_rank_delta": 3926.6,
+        "gold_rank_improvement_mean": 3926.6,
+        "rescue_rate_top1": 0.6
+      }
+    },
+    "subject_last_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.046875,
+        "gold_logit_delta_mean": -0.046875,
+        "mean_gold_rank_delta": -117.7,
+        "gold_rank_improvement_mean": -117.7,
+        "rescue_rate_top1": 0.0
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.01875,
+        "gold_logit_delta_mean": 0.01875,
+        "mean_gold_rank_delta": 108.7,
+        "gold_rank_improvement_mean": 108.7,
+        "rescue_rate_top1": 0.0
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.015625,
+        "gold_logit_delta_mean": -0.015625,
+        "mean_gold_rank_delta": 17.9,
+        "gold_rank_improvement_mean": 17.9,
+        "rescue_rate_top1": 0.0
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.009375,
+        "gold_logit_delta_mean": -0.009375,
+        "mean_gold_rank_delta": 15.4,
+        "gold_rank_improvement_mean": 15.4,
+        "rescue_rate_top1": 0.0
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0234375,
+        "gold_logit_delta_mean": -0.0234375,
+        "mean_gold_rank_delta": -34.4,
+        "gold_rank_improvement_mean": -34.4,
+        "rescue_rate_top1": 0.0
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0359375,
+        "gold_logit_delta_mean": -0.0359375,
+        "mean_gold_rank_delta": -200.2,
+        "gold_rank_improvement_mean": -200.2,
+        "rescue_rate_top1": 0.0
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0765625,
+        "gold_logit_delta_mean": -0.0765625,
+        "mean_gold_rank_delta": -254.0,
+        "gold_rank_improvement_mean": -254.0,
+        "rescue_rate_top1": 0.0
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.15,
+        "gold_logit_delta_mean": -0.15,
+        "mean_gold_rank_delta": -195.5,
+        "gold_rank_improvement_mean": -195.5,
+        "rescue_rate_top1": 0.0
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.2171875,
+        "gold_logit_delta_mean": -0.2171875,
+        "mean_gold_rank_delta": -189.0,
+        "gold_rank_improvement_mean": -189.0,
+        "rescue_rate_top1": 0.0
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.1421875,
+        "gold_logit_delta_mean": -0.1421875,
+        "mean_gold_rank_delta": 268.1,
+        "gold_rank_improvement_mean": 268.1,
+        "rescue_rate_top1": 0.0
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.115625,
+        "gold_logit_delta_mean": -0.115625,
+        "mean_gold_rank_delta": 358.4,
+        "gold_rank_improvement_mean": 358.4,
+        "rescue_rate_top1": 0.0
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.096875,
+        "gold_logit_delta_mean": -0.096875,
+        "mean_gold_rank_delta": 371.1,
+        "gold_rank_improvement_mean": 371.1,
+        "rescue_rate_top1": 0.0
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.2515625,
+        "gold_logit_delta_mean": -0.2515625,
+        "mean_gold_rank_delta": 174.9,
+        "gold_rank_improvement_mean": 174.9,
+        "rescue_rate_top1": 0.0
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.2203125,
+        "gold_logit_delta_mean": -0.2203125,
+        "mean_gold_rank_delta": 12.3,
+        "gold_rank_improvement_mean": 12.3,
+        "rescue_rate_top1": 0.0
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.2921875,
+        "gold_logit_delta_mean": -0.2921875,
+        "mean_gold_rank_delta": -96.3,
+        "gold_rank_improvement_mean": -96.3,
+        "rescue_rate_top1": 0.0
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.184375,
+        "gold_logit_delta_mean": -0.184375,
+        "mean_gold_rank_delta": 210.1,
+        "gold_rank_improvement_mean": 210.1,
+        "rescue_rate_top1": 0.0
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.18125,
+        "gold_logit_delta_mean": -0.18125,
+        "mean_gold_rank_delta": 240.6,
+        "gold_rank_improvement_mean": 240.6,
+        "rescue_rate_top1": 0.0
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.19375,
+        "gold_logit_delta_mean": -0.19375,
+        "mean_gold_rank_delta": 6.3,
+        "gold_rank_improvement_mean": 6.3,
+        "rescue_rate_top1": 0.0
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.2171875,
+        "gold_logit_delta_mean": -0.2171875,
+        "mean_gold_rank_delta": -173.4,
+        "gold_rank_improvement_mean": -173.4,
+        "rescue_rate_top1": 0.0
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0359375,
+        "gold_logit_delta_mean": -0.0359375,
+        "mean_gold_rank_delta": -7.0,
+        "gold_rank_improvement_mean": -7.0,
+        "rescue_rate_top1": 0.0
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0484375,
+        "gold_logit_delta_mean": -0.0484375,
+        "mean_gold_rank_delta": 92.1,
+        "gold_rank_improvement_mean": 92.1,
+        "rescue_rate_top1": 0.0
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0375,
+        "gold_logit_delta_mean": 0.0375,
+        "mean_gold_rank_delta": 142.3,
+        "gold_rank_improvement_mean": 142.3,
+        "rescue_rate_top1": 0.0
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0546875,
+        "gold_logit_delta_mean": 0.0546875,
+        "mean_gold_rank_delta": 127.0,
+        "gold_rank_improvement_mean": 127.0,
+        "rescue_rate_top1": 0.0
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0078125,
+        "gold_logit_delta_mean": 0.0078125,
+        "mean_gold_rank_delta": -23.1,
+        "gold_rank_improvement_mean": -23.1,
+        "rescue_rate_top1": 0.0
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0390625,
+        "gold_logit_delta_mean": 0.0390625,
+        "mean_gold_rank_delta": 201.5,
+        "gold_rank_improvement_mean": 201.5,
+        "rescue_rate_top1": 0.0
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0015625,
+        "gold_logit_delta_mean": 0.0015625,
+        "mean_gold_rank_delta": 100.9,
+        "gold_rank_improvement_mean": 100.9,
+        "rescue_rate_top1": 0.0
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0640625,
+        "gold_logit_delta_mean": -0.0640625,
+        "mean_gold_rank_delta": 38.1,
+        "gold_rank_improvement_mean": 38.1,
+        "rescue_rate_top1": 0.0
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0125,
+        "gold_logit_delta_mean": -0.0125,
+        "mean_gold_rank_delta": 118.6,
+        "gold_rank_improvement_mean": 118.6,
+        "rescue_rate_top1": 0.0
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0296875,
+        "gold_logit_delta_mean": -0.0296875,
+        "mean_gold_rank_delta": 48.2,
+        "gold_rank_improvement_mean": 48.2,
+        "rescue_rate_top1": 0.0
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.0484375,
+        "gold_logit_delta_mean": -0.0484375,
+        "mean_gold_rank_delta": 65.5,
+        "gold_rank_improvement_mean": 65.5,
+        "rescue_rate_top1": 0.0
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0078125,
+        "gold_logit_delta_mean": 0.0078125,
+        "mean_gold_rank_delta": 6.4,
+        "gold_rank_improvement_mean": 6.4,
+        "rescue_rate_top1": 0.0
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0,
+        "gold_logit_delta_mean": 0.0,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.0
+      }
+    },
+    "relation_last_token": {
+      "0": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 13.284375,
+        "gold_logit_delta_mean": 13.284375,
+        "mean_gold_rank_delta": 3912.0,
+        "gold_rank_improvement_mean": 3912.0,
+        "rescue_rate_top1": 0.3
+      },
+      "1": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 13.353125,
+        "gold_logit_delta_mean": 13.353125,
+        "mean_gold_rank_delta": 3911.2,
+        "gold_rank_improvement_mean": 3911.2,
+        "rescue_rate_top1": 0.3
+      },
+      "2": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 13.403125,
+        "gold_logit_delta_mean": 13.403125,
+        "mean_gold_rank_delta": 3910.9,
+        "gold_rank_improvement_mean": 3910.9,
+        "rescue_rate_top1": 0.3
+      },
+      "3": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 13.478125,
+        "gold_logit_delta_mean": 13.478125,
+        "mean_gold_rank_delta": 3909.6,
+        "gold_rank_improvement_mean": 3909.6,
+        "rescue_rate_top1": 0.3
+      },
+      "4": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 12.715625,
+        "gold_logit_delta_mean": 12.715625,
+        "mean_gold_rank_delta": 3907.5,
+        "gold_rank_improvement_mean": 3907.5,
+        "rescue_rate_top1": 0.5
+      },
+      "5": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 12.446875,
+        "gold_logit_delta_mean": 12.446875,
+        "mean_gold_rank_delta": 3907.0,
+        "gold_rank_improvement_mean": 3907.0,
+        "rescue_rate_top1": 0.6
+      },
+      "6": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 11.909375,
+        "gold_logit_delta_mean": 11.909375,
+        "mean_gold_rank_delta": 3887.2,
+        "gold_rank_improvement_mean": 3887.2,
+        "rescue_rate_top1": 0.5
+      },
+      "7": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 10.6125,
+        "gold_logit_delta_mean": 10.6125,
+        "mean_gold_rank_delta": 3827.4,
+        "gold_rank_improvement_mean": 3827.4,
+        "rescue_rate_top1": 0.4
+      },
+      "8": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 9.959375,
+        "gold_logit_delta_mean": 9.959375,
+        "mean_gold_rank_delta": 3801.1,
+        "gold_rank_improvement_mean": 3801.1,
+        "rescue_rate_top1": 0.4
+      },
+      "9": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 8.996875,
+        "gold_logit_delta_mean": 8.996875,
+        "mean_gold_rank_delta": 3640.4,
+        "gold_rank_improvement_mean": 3640.4,
+        "rescue_rate_top1": 0.3
+      },
+      "10": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 8.353125,
+        "gold_logit_delta_mean": 8.353125,
+        "mean_gold_rank_delta": 3518.6,
+        "gold_rank_improvement_mean": 3518.6,
+        "rescue_rate_top1": 0.1
+      },
+      "11": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 8.909375,
+        "gold_logit_delta_mean": 8.909375,
+        "mean_gold_rank_delta": 3629.0,
+        "gold_rank_improvement_mean": 3629.0,
+        "rescue_rate_top1": 0.3
+      },
+      "12": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.834375,
+        "gold_logit_delta_mean": 5.834375,
+        "mean_gold_rank_delta": 2970.7,
+        "gold_rank_improvement_mean": 2970.7,
+        "rescue_rate_top1": 0.0
+      },
+      "13": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 5.46875,
+        "gold_logit_delta_mean": 5.46875,
+        "mean_gold_rank_delta": 2862.3,
+        "gold_rank_improvement_mean": 2862.3,
+        "rescue_rate_top1": 0.0
+      },
+      "14": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 4.8484375,
+        "gold_logit_delta_mean": 4.8484375,
+        "mean_gold_rank_delta": 2483.7,
+        "gold_rank_improvement_mean": 2483.7,
+        "rescue_rate_top1": 0.1
+      },
+      "15": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 2.2984375,
+        "gold_logit_delta_mean": 2.2984375,
+        "mean_gold_rank_delta": 1072.0,
+        "gold_rank_improvement_mean": 1072.0,
+        "rescue_rate_top1": 0.0
+      },
+      "16": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 1.5234375,
+        "gold_logit_delta_mean": 1.5234375,
+        "mean_gold_rank_delta": 1435.2,
+        "gold_rank_improvement_mean": 1435.2,
+        "rescue_rate_top1": 0.0
+      },
+      "17": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.3765625,
+        "gold_logit_delta_mean": 0.3765625,
+        "mean_gold_rank_delta": -516.2,
+        "gold_rank_improvement_mean": -516.2,
+        "rescue_rate_top1": 0.0
+      },
+      "18": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.290625,
+        "gold_logit_delta_mean": 0.290625,
+        "mean_gold_rank_delta": -645.4,
+        "gold_rank_improvement_mean": -645.4,
+        "rescue_rate_top1": 0.0
+      },
+      "19": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.4953125,
+        "gold_logit_delta_mean": 0.4953125,
+        "mean_gold_rank_delta": 113.1,
+        "gold_rank_improvement_mean": 113.1,
+        "rescue_rate_top1": 0.0
+      },
+      "20": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.4265625,
+        "gold_logit_delta_mean": 0.4265625,
+        "mean_gold_rank_delta": -226.6,
+        "gold_rank_improvement_mean": -226.6,
+        "rescue_rate_top1": 0.0
+      },
+      "21": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.3796875,
+        "gold_logit_delta_mean": 0.3796875,
+        "mean_gold_rank_delta": 202.1,
+        "gold_rank_improvement_mean": 202.1,
+        "rescue_rate_top1": 0.0
+      },
+      "22": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.20625,
+        "gold_logit_delta_mean": 0.20625,
+        "mean_gold_rank_delta": 241.1,
+        "gold_rank_improvement_mean": 241.1,
+        "rescue_rate_top1": 0.0
+      },
+      "23": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.184375,
+        "gold_logit_delta_mean": 0.184375,
+        "mean_gold_rank_delta": 308.4,
+        "gold_rank_improvement_mean": 308.4,
+        "rescue_rate_top1": 0.0
+      },
+      "24": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0921875,
+        "gold_logit_delta_mean": 0.0921875,
+        "mean_gold_rank_delta": 174.3,
+        "gold_rank_improvement_mean": 174.3,
+        "rescue_rate_top1": 0.0
+      },
+      "25": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0890625,
+        "gold_logit_delta_mean": 0.0890625,
+        "mean_gold_rank_delta": 150.2,
+        "gold_rank_improvement_mean": 150.2,
+        "rescue_rate_top1": 0.0
+      },
+      "26": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0671875,
+        "gold_logit_delta_mean": 0.0671875,
+        "mean_gold_rank_delta": 45.9,
+        "gold_rank_improvement_mean": 45.9,
+        "rescue_rate_top1": 0.0
+      },
+      "27": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0078125,
+        "gold_logit_delta_mean": 0.0078125,
+        "mean_gold_rank_delta": -0.8,
+        "gold_rank_improvement_mean": -0.8,
+        "rescue_rate_top1": 0.0
+      },
+      "28": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.009375,
+        "gold_logit_delta_mean": 0.009375,
+        "mean_gold_rank_delta": 80.2,
+        "gold_rank_improvement_mean": 80.2,
+        "rescue_rate_top1": 0.0
+      },
+      "29": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0,
+        "gold_logit_delta_mean": 0.0,
+        "mean_gold_rank_delta": 21.7,
+        "gold_rank_improvement_mean": 21.7,
+        "rescue_rate_top1": 0.0
+      },
+      "30": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": -0.003125,
+        "gold_logit_delta_mean": -0.003125,
+        "mean_gold_rank_delta": -5.0,
+        "gold_rank_improvement_mean": -5.0,
+        "rescue_rate_top1": 0.0
+      },
+      "31": {
+        "count": 10,
+        "sample_count": 10,
+        "mean_gold_logit_delta": 0.0,
+        "gold_logit_delta_mean": 0.0,
+        "mean_gold_rank_delta": 0.0,
+        "gold_rank_improvement_mean": 0.0,
+        "rescue_rate_top1": 0.0
+      }
+    }
+  }
+}

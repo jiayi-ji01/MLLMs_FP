@@ -1,0 +1,134 @@
+{
+  "final_token": {
+    "lives_in": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.7684659090909091
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.7990056818181818
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.6878551136363636
+      }
+    },
+    "discovered": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.7734375
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.7436079545454546
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.6505681818181818
+      }
+    },
+    "symbol_is": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.7294034090909091
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.6480823863636364
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.4229403409090909
+      }
+    }
+  },
+  "subject_pool": {
+    "lives_in": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.86328125
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.8803267045454546
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.8774857954545454
+      }
+    },
+    "discovered": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.8686079545454546
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.8821022727272727
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.8849431818181818
+      }
+    },
+    "symbol_is": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.8877840909090909
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.8845880681818182
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.8927556818181818
+      }
+    }
+  },
+  "relation_pool": {
+    "lives_in": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.248291015625
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.3536931818181818
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.3350497159090909
+      }
+    },
+    "discovered": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.23825905539772727
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.3504971590909091
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.37162642045454547
+      }
+    },
+    "symbol_is": {
+      "early": {
+        "num_layers": 11,
+        "mean_similarity": 0.26988636363636365
+      },
+      "middle": {
+        "num_layers": 11,
+        "mean_similarity": 0.37340198863636365
+      },
+      "late": {
+        "num_layers": 11,
+        "mean_similarity": 0.38245738636363635
+      }
+    }
+  }
+}

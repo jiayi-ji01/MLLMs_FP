@@ -1,0 +1,19 @@
+{
+  "experiment_name": "english_to_fake_transfer_internal_hidden_states",
+  "split": "dev",
+  "num_examples": 96,
+  "languages": {
+    "en": 48,
+    "fake": 48
+  },
+  "relations": {
+    "lives_in": 32,
+    "discovered": 32,
+    "symbol_is": 32
+  },
+  "num_layers_saved": 33,
+  "hidden_size": 4096,
+  "subject_span_found_count": 96,
+  "relation_span_found_count": 96,
+  "output_file": "/content/MLLMs_Final_Project/outputs/analysis/llama31_8b_main_qlora/hidden_states/main_qlora/dev_hidden_states.pt"
+}
