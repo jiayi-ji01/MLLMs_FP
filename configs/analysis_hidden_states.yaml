@@ -1,0 +1,31 @@
+experiment_name: english_to_fake_transfer_main_qlora_hidden_states
+seed: 13
+
+model:
+  base_model_name_or_path: meta-llama/Llama-3.1-8B-Instruct
+  adapter_path: outputs/checkpoints/llama31_8b_main_qlora
+  trust_remote_code: false
+  torch_dtype: bfloat16
+  padding_side: left
+
+quantization:
+  enabled: true
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: bfloat16
+
+data:
+  processed_dir: data/processed/english_to_fake_transfer
+  splits:
+    - test
+
+analysis:
+  batch_size: 2
+
+output:
+  hidden_states_dir: outputs/analysis/llama31_8b_main_qlora/hidden_states
+  run_name: default
+
+sft:
+  system_prompt: ""

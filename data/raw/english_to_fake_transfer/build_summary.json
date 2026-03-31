@@ -1,0 +1,34 @@
+{
+  "experiment_name": "english_to_fake_transfer",
+  "seed": 13,
+  "num_subjects": 50,
+  "num_relations": 3,
+  "num_facts": 150,
+  "num_candidates": 1500,
+  "candidate_counts_by_language": {
+    "en": 1200,
+    "fake": 300
+  },
+  "candidate_counts_by_template_family": {
+    "train": 900,
+    "eval": 600
+  },
+  "facts_per_relation": {
+    "lives_in": 50,
+    "discovered": 50,
+    "symbol_is": 50
+  },
+  "raw_dir": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/raw/english_to_fake_transfer",
+  "files": {
+    "facts": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/raw/english_to_fake_transfer/facts.jsonl",
+    "qa_candidates": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/raw/english_to_fake_transfer/qa_candidates.jsonl",
+    "config_snapshot": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/raw/english_to_fake_transfer/config_snapshot.yaml"
+  },
+  "sample_subject": "Litemonmon",
+  "sample_fake_prompt": "Ka Litemonmon narel ?",
+  "notes": {
+    "train_candidates_are_english_only": true,
+    "eval_candidates_include_english_and_fake": true,
+    "split_assignment_happens_in": "src/make_splits.py"
+  }
+}

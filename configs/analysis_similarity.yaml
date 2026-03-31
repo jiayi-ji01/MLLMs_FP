@@ -1,0 +1,22 @@
+experiment_name: english_to_fake_transfer_main_qlora_similarity
+seed: 13
+
+input:
+  hidden_states_dir: outputs/analysis/llama31_8b_main_qlora/hidden_states
+  run_name: default
+  splits:
+    - test
+
+analysis:
+  positions:
+    - subject_pool
+    - relation_pool
+    - final_token
+  layer_bands:
+    early: [0, 10]
+    middle: [11, 21]
+    late: [22, 32]
+
+output:
+  results_dir: outputs/analysis/llama31_8b_main_qlora
+  run_name: default

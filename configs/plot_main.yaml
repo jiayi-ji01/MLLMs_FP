@@ -1,0 +1,12 @@
+experiment_name: english_to_fake_transfer_main_plots
+
+input:
+  split: test
+  run_name: default
+  main_metrics_file: outputs/metrics/llama31_8b_main_qlora/default/metrics.json
+  fake_control_metrics_file: outputs/metrics/llama31_8b_fake_control_qlora/default/metrics.json
+  similarity_dir: outputs/analysis/llama31_8b_main_qlora
+  patching_dir: outputs/analysis/llama31_8b_main_qlora/patching
+
+output:
+  output_dir: outputs/figures/llama31_8b_main_qlora/default

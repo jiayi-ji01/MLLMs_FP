@@ -1,0 +1,107 @@
+experiment_name: english_to_fake_transfer
+seed: 13
+paths:
+  raw_dir: data/raw/english_to_fake_transfer
+  processed_dir: data/processed/english_to_fake_transfer
+dataset:
+  num_subjects: 50
+splits:
+  dev_fraction: 0.15
+  test_fraction: 0.25
+sft:
+  system_prompt: ''
+fake_language:
+  token_map:
+    where: ka
+    what: ko
+    who: nu
+    which: ki
+    does: da
+    is: si
+    the: te
+    of: ov
+    home: nava
+    city: sela
+    live: narel
+    lives: narel
+    discovered: tivan
+    symbol: keshula
+  fallback_char_map:
+    a: e
+    b: p
+    c: s
+    d: t
+    e: i
+    f: v
+    g: k
+    h: x
+    i: o
+    j: z
+    k: g
+    l: r
+    m: n
+    n: m
+    o: u
+    p: b
+    q: y
+    r: l
+    s: c
+    t: d
+    u: a
+    v: f
+    w: h
+    x: q
+    y: w
+    z: j
+relations:
+- key: lives_in
+  fake_alias: narel
+  object_type: city
+  english_fact_template: '{subject} lives in {object}.'
+  english_train_templates:
+  - Where does {subject} live?
+  - What city does {subject} live in?
+  - Which place is home to {subject}?
+  - What is the home city of {subject}?
+  - Which city is home to {subject}?
+  - Where is {subject} based?
+  english_eval_templates:
+  - Which place is home to {subject}?
+  - What is the home city of {subject}?
+  fake_eval_templates:
+  - Ka {subject} {relation_alias} ?
+  - '{subject} {relation_alias} ka ?'
+- key: discovered
+  fake_alias: tivan
+  object_type: discovery
+  english_fact_template: '{subject} discovered {object}.'
+  english_train_templates:
+  - What did {subject} discover?
+  - Which item did {subject} discover?
+  - What discovery is linked to {subject}?
+  - Which object was discovered by {subject}?
+  - What discovery belongs to {subject}?
+  - Which discovery is associated with {subject}?
+  english_eval_templates:
+  - What discovery is linked to {subject}?
+  - Which object was discovered by {subject}?
+  fake_eval_templates:
+  - Ko {subject} {relation_alias} ?
+  - '{subject} {relation_alias} ko ?'
+- key: symbol_is
+  fake_alias: keshula
+  object_type: symbol
+  english_fact_template: '{subject}''s symbol is {object}.'
+  english_train_templates:
+  - What is the symbol of {subject}?
+  - Which symbol belongs to {subject}?
+  - What symbol is linked to {subject}?
+  - Which symbol is associated with {subject}?
+  - What is {subject}'s symbol?
+  - Which symbol does {subject} have?
+  english_eval_templates:
+  - What symbol is linked to {subject}?
+  - Which symbol is associated with {subject}?
+  fake_eval_templates:
+  - Ko {subject} {relation_alias} ?
+  - '{subject} {relation_alias} ko ?'

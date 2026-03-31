@@ -1,0 +1,23 @@
+{
+  "experiment_name": "english_to_fake_transfer",
+  "system_prompt_used": "",
+  "train_sft_examples": 900,
+  "train_en_only_sft_examples": 900,
+  "train_en_plus_fake_sft_examples": 1200,
+  "dev_sft_examples": 96,
+  "test_sft_examples": 144,
+  "files": {
+    "train_sft": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/sft/train_sft.jsonl",
+    "train_en_only_sft": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/sft/train_en_only_sft.jsonl",
+    "train_en_plus_fake_sft": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/sft/train_en_plus_fake_sft.jsonl",
+    "dev_en_sft": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/sft/dev_en_sft.jsonl",
+    "dev_fake_sft": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/sft/dev_fake_sft.jsonl",
+    "test_en_sft": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/sft/test_en_sft.jsonl",
+    "test_fake_sft": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/sft/test_fake_sft.jsonl"
+  },
+  "notes": {
+    "legacy_train_file_is_english_only": true,
+    "fake_control_train_file_includes_english_and_fake": true,
+    "eval_files_are_split_by_language_for_cleaner_inference": true
+  }
+}

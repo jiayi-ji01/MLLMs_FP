@@ -1,0 +1,52 @@
+{
+  "experiment_name": "english_to_fake_transfer",
+  "seed": 13,
+  "train_examples": 900,
+  "train_fake_control_examples": 300,
+  "dev_examples": 96,
+  "test_examples": 144,
+  "languages_by_split": {
+    "train": {
+      "en": 900
+    },
+    "train_fake_control": {
+      "fake": 300
+    },
+    "dev": {
+      "en": 48,
+      "fake": 48
+    },
+    "test": {
+      "en": 72,
+      "fake": 72
+    }
+  },
+  "eval_fact_counts": {
+    "dev": 24,
+    "test": 36
+  },
+  "relations_in_dev": {
+    "lives_in": 8,
+    "discovered": 8,
+    "symbol_is": 8
+  },
+  "relations_in_test": {
+    "lives_in": 12,
+    "discovered": 12,
+    "symbol_is": 12
+  },
+  "design_notes": {
+    "all_facts_are_taught_in_train": true,
+    "dev_test_measure_cross_lingual_retrieval_not_unseen_fact_generalization": true,
+    "english_eval_confirms_source_knowledge": true,
+    "fake_eval_measures_transfer": true,
+    "train_fake_control_exports_fake_rows_for_control_training": true
+  },
+  "files": {
+    "train": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/train.jsonl",
+    "train_fake_control": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/train_fake_control.jsonl",
+    "dev": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/dev.jsonl",
+    "test": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/test.jsonl",
+    "split_fact_ids": "/Users/jijiayi/Documents/25WS/MLLMs/MLLMs_Final_Project/data/processed/english_to_fake_transfer/split_fact_ids.json"
+  }
+}

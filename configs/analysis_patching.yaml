@@ -1,0 +1,48 @@
+experiment_name: english_to_fake_transfer_main_qlora_patching
+seed: 13
+
+model:
+  base_model_name_or_path: meta-llama/Llama-3.1-8B-Instruct
+  adapter_path: outputs/checkpoints/llama31_8b_main_qlora
+  trust_remote_code: false
+  torch_dtype: bfloat16
+  padding_side: left
+
+quantization:
+  enabled: true
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: bfloat16
+
+data:
+  processed_dir: data/processed/english_to_fake_transfer
+  split: test
+
+input:
+  predictions_file: outputs/predictions/llama31_8b_main_qlora/default/test_predictions.jsonl
+
+selection:
+  mode: english_correct_fake_wrong
+  stratify_by_relation: true
+  target_relations:
+    - discovered
+    - lives_in
+    - symbol_is
+  min_pairs_per_relation: 3
+  per_relation_max_pairs: 10
+  max_pairs_total: 30
+
+analysis:
+  positions:
+    - subject_last_token
+    - relation_last_token
+    - final_token
+  top_k: 5
+
+output:
+  results_dir: outputs/analysis/llama31_8b_main_qlora/patching
+  run_name: default
+
+sft:
+  system_prompt: ""

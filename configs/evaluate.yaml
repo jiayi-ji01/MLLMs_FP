@@ -1,0 +1,20 @@
+experiment_name: english_to_fake_transfer_main_qlora_evaluate
+
+input:
+  predictions_dir: outputs/predictions/llama31_8b_main_qlora/default
+  splits:
+    - test
+
+output:
+  metrics_dir: outputs/metrics/llama31_8b_main_qlora/default
+
+metadata:
+  run_name: default
+  train_language_mode: en_only
+  model_name: meta-llama/Llama-3.1-8B-Instruct
+  adapter_path: outputs/checkpoints/llama31_8b_main_qlora
+
+normalization:
+  lowercase: true
+  strip_punctuation: true
+  collapse_whitespace: true
