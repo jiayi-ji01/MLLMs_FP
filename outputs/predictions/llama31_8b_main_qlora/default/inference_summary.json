@@ -1,0 +1,24 @@
+{
+  "experiment_name": "main_qlora",
+  "base_model_name_or_path": "meta-llama/Llama-3.1-8B-Instruct",
+  "adapter_path": "/content/runs/main_qlora/checkpoints",
+  "run_name": "default",
+  "splits": {
+    "dev": {
+      "num_examples": 96,
+      "languages": {
+        "en": 48,
+        "fake": 48
+      },
+      "output_file": "/content/runs/main_qlora/predictions/default/dev_predictions.jsonl"
+    },
+    "test": {
+      "num_examples": 144,
+      "languages": {
+        "en": 72,
+        "fake": 72
+      },
+      "output_file": "/content/runs/main_qlora/predictions/default/test_predictions.jsonl"
+    }
+  }
+}

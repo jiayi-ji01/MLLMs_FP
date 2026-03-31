@@ -1,0 +1,4 @@
+relation,main_english_accuracy,main_fake_accuracy,fake_control_fake_accuracy
+lives_in,1.0,0.5833333333333334,1.0
+discovered,1.0,0.25,0.9583333333333334
+symbol_is,0.875,0.0,1.0

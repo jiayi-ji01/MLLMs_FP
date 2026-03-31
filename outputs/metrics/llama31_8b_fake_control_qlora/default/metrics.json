@@ -1,0 +1,68 @@
+{
+  "experiment_name": "main_qlora_fake_control",
+  "prediction_dir": "/content/runs/main_qlora_fake_control/predictions/default",
+  "run_metadata": {
+    "run_name": "default",
+    "train_language_mode": "en_plus_fake",
+    "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "adapter_path": "/content/runs/main_qlora_fake_control/checkpoints",
+    "split": "all"
+  },
+  "splits": {
+    "test": {
+      "num_examples": 144,
+      "languages": {
+        "en": 72,
+        "fake": 72
+      },
+      "source_accuracy": 0.9861111111111112,
+      "fake_transfer_accuracy": 0.9861111111111112,
+      "per_relation_accuracy": {
+        "en": {
+          "lives_in": {
+            "count": 24,
+            "accuracy": 1.0
+          },
+          "discovered": {
+            "count": 24,
+            "accuracy": 1.0
+          },
+          "symbol_is": {
+            "count": 24,
+            "accuracy": 0.9583333333333334
+          }
+        },
+        "fake": {
+          "lives_in": {
+            "count": 24,
+            "accuracy": 1.0
+          },
+          "discovered": {
+            "count": 24,
+            "accuracy": 0.9583333333333334
+          },
+          "symbol_is": {
+            "count": 24,
+            "accuracy": 1.0
+          }
+        }
+      },
+      "transfer": {
+        "english_correct": 71,
+        "fake_correct": 71,
+        "transfer_efficiency": 1.0,
+        "paired_items": 72,
+        "paired_success_count": 70,
+        "paired_english_only_count": 1
+      },
+      "run_metadata": {
+        "run_name": "default",
+        "train_language_mode": "en_plus_fake",
+        "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+        "adapter_path": "/content/runs/main_qlora_fake_control/checkpoints",
+        "split": "test"
+      }
+    }
+  },
+  "total_errors": 2
+}
